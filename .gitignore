@@ -118,5 +118,11 @@ nbproject
 .node_history
 
 
-#terraform-provider exe file
-terraform-provider-azurerm_v3.117.0_x5
+# Terraform files to ignore
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+terraform-provider-*
+*.exe
+*.tfvars
+.terraform.lock.hcl
