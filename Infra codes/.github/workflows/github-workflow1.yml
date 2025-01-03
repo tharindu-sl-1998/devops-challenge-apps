@@ -20,7 +20,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./terraform/main
+        working-directory: ./Infra codes/terraform/main
 
     steps:
     - name: Checkout
