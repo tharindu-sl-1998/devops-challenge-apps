@@ -20,7 +20,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./Infra codes/terraform/main
+        working-directory: '${{ github.workspace }}/Infra codes/terraform/main'
 
     steps:
     - name: Checkout
