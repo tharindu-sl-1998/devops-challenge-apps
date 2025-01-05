@@ -1,7 +1,3 @@
-# DevOps Technical Assessment Solution
-
-This repository contains the solution for the DevOps Technical Assessment, implementing a complete infrastructure setup for a web application and API using Azure cloud services.
-
 ## Project Structure
 
 ```
@@ -54,12 +50,6 @@ This repository contains the solution for the DevOps Technical Assessment, imple
 - Nginx reverse proxy setup
 - Monitoring implementation
 
-## Getting Started
-
-1. Clone this repository
-2. Follow setup instructions in docs/setup.md
-3. Review architecture documentation in docs/architecture.md
-
 ## Standards and Best Practices
 
 - Infrastructure follows Azure Well-Architected Framework
@@ -67,11 +57,3 @@ This repository contains the solution for the DevOps Technical Assessment, imple
 - Semantic versioning
 - Infrastructure modularization
 - Security best practices
-
-## Documentation
-
-Detailed documentation can be found in the `docs/` directory:
-- Architecture Design
-- Project Standards
-- Setup Guide
-- Monitoring Guide 
