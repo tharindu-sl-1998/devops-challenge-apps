@@ -11,4 +11,4 @@ metadata:
   name: wp-mongodb
 type: Opaque
 stringData:
-  connection-string: "mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@wp-cosmos-main-001.mongo.cosmos.azure.com:10255/wp-db?ssl=true&replicaSet=globaldb" 
+  connection-string: "" 

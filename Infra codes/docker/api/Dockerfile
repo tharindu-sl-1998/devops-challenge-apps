@@ -12,7 +12,7 @@ RUN npm install --production
 # Copy source code
 COPY . .
 
-# Environment variables will be provided during runtime
+# Environment variables
 ENV NODE_ENV=production
 ENV PORT=3000
 

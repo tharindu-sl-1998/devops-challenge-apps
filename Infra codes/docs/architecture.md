@@ -46,22 +46,13 @@ Virtual Network (10.0.0.0/16)
 - Containerized Node.js application
 - Served via Nginx
 - SSL/TLS enabled
-- Domain: web.example.com
+- Domain: webapp.tharindu.com
 
 ### API Service
 - Containerized Node.js API
 - RESTful endpoints
 - SSL/TLS enabled
-- Domain: api.example.com
+- Domain: api.tharindu.com
 
 ### Database
 - CosmosDB with MongoDB API
-- Automated backups
-- Geo-redundancy enabled
-
-## Security Architecture
-- Azure AD integration
-- Network Security Groups
-- Azure Key Vault for secrets
-- SSL/TLS encryption
-- Pod identity for AKS 
